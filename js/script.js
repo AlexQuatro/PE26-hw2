@@ -38,11 +38,6 @@ if (userPassword === password) {
 	console.log(`${userName}, введіть правильний пароль`);
 }
 
-const passwordVerification = userPassword === password ?
-	`${userName}, пароль вірний!` :
-	`${userName}, введіть правильний пароль`;
-console.log(passwordVerification);
-
 /*
 2. Створіть змінну x та присвойте їй значення 5. Створіть ще одну змінну y та запишіть присвойте їй значення 3. 
 Виведіть результати додавання, віднімання, множення та ділення змінних x та y у вікні alert.
