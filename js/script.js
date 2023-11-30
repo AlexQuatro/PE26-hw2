@@ -30,9 +30,17 @@ age = ++age; // присвоєння нового значення змінні�
 
 const userName = 'Олексій';
 const password = 'secret';
-const userPassword = prompt('Введіть свій пароль');
+const userPassword = prompt('Введіть пароль');
 
-const passwordVerification = password === userPassword;
+if (userPassword === password) {
+	console.log(`${userName}, пароль вірний!`);
+} else {
+	console.log(`${userName}, Введіть правильний пароль`);
+}
+
+const passwordVerification = userPassword === password ?
+	`${userName}, пароль вірний!` :
+	`${userName}, Введіть правильний пароль`;
 console.log(passwordVerification);
 
 /*
