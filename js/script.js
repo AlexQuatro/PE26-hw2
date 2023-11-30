@@ -35,12 +35,12 @@ const userPassword = prompt('Введіть пароль');
 if (userPassword === password) {
 	console.log(`${userName}, пароль вірний!`);
 } else {
-	console.log(`${userName}, Введіть правильний пароль`);
+	console.log(`${userName}, введіть правильний пароль`);
 }
 
 const passwordVerification = userPassword === password ?
 	`${userName}, пароль вірний!` :
-	`${userName}, Введіть правильний пароль`;
+	`${userName}, введіть правильний пароль`;
 console.log(passwordVerification);
 
 /*
